@@ -1,0 +1,63 @@
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+.super-info {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 10px
+}
+
+.super-info p, .super-info a {
+  margin: 0 10px 10px 10px
+}
+
+.superinfo-bg a {
+  color: white;
+}
+
+.menu-bg {
+  background: #2c70ff;
+}
+
+.menu {
+  max-width: 960px; 
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center
+}
+
+.menu a {
+  color: white;
+}
+
+.menu-logo a{
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  gap: 20px
+}
+
+.menu-nav a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  transition: 0.2s;
+  color: #122ab2;
+}
